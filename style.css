@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  'merriweather+sans';
+}
+nav#mainNav {
+    background: white;
+}
+.main1 {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background: linear-gradient( rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%) , url('https://images.pexels.com/photos/1653702/pexels-photo-1653702.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+}
+
+h1.text-white.font-weight-bold {
+    font-size: 50px;
+    
+}
+
+hr.line{
+    width: 20%;
+    margin: 10px auto;
+    height: 1vh;
+    background: #fd3803;
+}
+
+p.text-white-75.mb-5 {
+    color: #f5f5f58f;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'merriweather+sans';
+}
+
+a.btn.btn-primary.btn-xl {
+    padding: 15px;
+    border-radius: 30px;
+    font-size: 16px;
+    text-transform: uppercase;
+    border: none;
+    font-weight: 600;
+    background-color: #f4623a;
+}
+
+.main2 {
+    background: #f4623a;
+    width: 100%;
+    height: 80vh;
+    }
+
+.col-lg-8.text-center {
+    padding: 5em;
+}
+
+h2.text-white.mt-0 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 35px;
+}
+
+hr.line1-light{
+    width: 20%;
+    margin: 10px auto;
+    height: 1vh;
+    background: white;
+}
+p.text-white-75.mb-4 {
+    font-size: 20px;
+    color: #f5f5f58f;
+}
+
+a.btn.btn-light.btn-xl {
+    font-size: 17px;
+    font-weight: 600;
+    margin: 1em;
+    padding: 13px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-family: system-ui;
+}
+
+.main3 {
+    width: 100%;
+    height: 100vh;
+}
+
+h2.text-center.mt-0 {padding-top: 2em;font-family: system-ui;font-size: 35px;}
+
+i.bi-gem.fs-1.text-primary {
+}
+
+::before {
+    color: #f4623a;
+}
+
+h5.card-title {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+
+a.btn.btn-primary {
+    border-radius: 0;
+    background: #f4623a;
+    border: none;
+    font-size: 17px;
+    color: white;
+    font-weight: 500;
+}
+
+.card{
+    position: relative;
+    
+}
+.card:hover{
+    position: absolute;
+    opacity: 0.5;
+    border: none;
+    color: white;
+    background-color: #f4623a;
+    transition: 0.5s ease-in-out;
+}
+.page-section.text-white{
+    width: 100%;
+    height: 80vh;
+    opacity: 0.8;
+   
+    background-color: black;
+    background: url(sho.jpg);
+    background-size: cover;
+    background-position: center;
+}
+h2.mb-4 {
+    font-family: 'explora';
+    font-size: 60px;
+    padding-top: 5.5em;
+    color:white;
+    font-weight: 900;
+    
+}
+.footer h1 {
+    font-size: 26px;
+    padding-top: 1em;
+    text-transform: capitalize;
+  
+   color: #212529;
+}
+
+.footer {
+    padding-top: 2em;
+  
+}
+
+.footer p {
+    color: #00000096;
+    font-weight: 600;
+
+    font-size: initial;
+}
+.line2 {
+    width: 10%;
+    height: 2px;
+    background:#f4623a;
+    margin: 10px auto;
+}
+.icons.d-flex.p-0 {
+    justify-content: center;
+}
+
+.icons.d-flex.p-0 img {
+    margin: 5px;
+}
+a.nav-link:hover {
+    color: #fd3803;
+}
+@media(max-width:580px){
+  h1.text-white.font-weight-bold{
+        font-size: 30px;
+    }
+    p.text-white-75.mb-5{
+        font-size: 20px;
+    }
+    .main2{
+        height: 100vh;
+    }
+    .col-lg-8.text-center{
+        padding: 2em;
+    }
+    .main3{
+        height: 250vh;
+    }
+    .col-lg-3.col-md-6.col-sm-6.text-initial.justify-content-center {
+    text-align: -webkit-center;
+    margin: 10px;
+}
+
+.col-lg-3.col-md-6.col-sm-6.text-initial {
+    text-align: -webkit-center;
+    margin: 10px;
+}
+
+ 
+}
+@media(min-width:580px) and (max-width:1024px){
+    h1.text-white.font-weight-bold {
+        font-size: 40px;
+    }
+    .main1{
+        padding-top: 1em;
+    }
+    .main2{
+        height: 110vh;
+    }
+    .main3{
+        height: 150vh;
+    }
+    .col-lg-3.col-md-6.col-sm-6.text-initial.justify-content-center {
+        text-align: -webkit-center;
+       
+    }
+    .col-lg-3.col-md-6.col-sm-6.text-initial {
+        text-align: -webkit-center;
+       
+       
+    }
+}
